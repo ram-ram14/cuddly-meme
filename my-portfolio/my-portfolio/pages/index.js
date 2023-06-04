@@ -16,7 +16,7 @@ export default function Home() {
             <h1 className='text-xl'>Ramez Al-Siddiq</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill />
+                <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
               </li>
               <li>
                 <a href='#'>Resume</a>
