@@ -13,6 +13,10 @@ export default function Home() {
         <section className='min-h-screen'>
           <nav></nav>
           <h1>Ramez Al-Siddiq</h1>
+          <ul>
+            <li></li>
+            <li><a href='#'>Resume</a></li>
+          </ul>
         </section>
       </main>
     </div>
