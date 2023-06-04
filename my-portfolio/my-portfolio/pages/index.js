@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import {BSFillMoonStarsFill} from 'react-icons/bs';
+import {BsFillMoonStarsFill} from 'react-icons/bs';
 
 export default function Home() {
   return (
@@ -12,12 +12,17 @@ export default function Home() {
 
       <main>
         <section className='min-h-screen'>
-          <nav></nav>
-          <h1>Ramez Al-Siddiq</h1>
-          <ul>
-            <li></li>
-            <li><a href='#'>Resume</a></li>
-          </ul>
+          <nav className='py-10 mb-12 flex justify-between'>
+            <h1>Ramez Al-Siddiq</h1>
+            <ul>
+              <li>
+                <BsFillMoonStarsFill />
+              </li>
+              <li>
+                <a href='#'>Resume</a>
+              </li>
+            </ul>
+          </nav>
         </section>
       </main>
     </div>
