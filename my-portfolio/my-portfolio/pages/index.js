@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub } from 'react-icons/ai';
 
 export default function Home() {
   return (
@@ -36,7 +36,7 @@ export default function Home() {
             <div>
               <AiFillTwitterCircle />
               <AiFillLinkedin />
-              <AiFillYoutube />
+              <AiFillGithub />
             </div>
           </div>
         </section>
