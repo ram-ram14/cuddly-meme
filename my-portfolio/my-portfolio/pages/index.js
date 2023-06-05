@@ -27,7 +27,7 @@ export default function Home() {
             </ul>
           </nav>
           <div>
-            <h2></h2>
+            <h2>Ramez Al-Siddiq</h2>
           </div>
         </section>
       </main>
