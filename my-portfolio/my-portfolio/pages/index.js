@@ -28,6 +28,7 @@ export default function Home() {
           </nav>
           <div>
             <h2>Ramez Al-Siddiq</h2>
+            <h3>Junior Software Engineer.</h3>
           </div>
         </section>
       </main>
