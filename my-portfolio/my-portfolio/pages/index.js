@@ -29,6 +29,7 @@ export default function Home() {
           <div>
             <h2>Ramez Al-Siddiq</h2>
             <h3>Junior Software Engineer.</h3>
+            <p>I deliver seamless digital experiences for end-users</p>
           </div>
         </section>
       </main>
