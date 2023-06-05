@@ -31,7 +31,7 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Ramez Al-Siddiq</h2>
             <h3 className='text-2xl py-2'>Junior Software Engineer.</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>
-              I deliver seamless digital experiences for end-users
+              I deliver seamless digital experiences for end-users. Check out my awesome work below!
             </p>
             <div>
               <AiFillTwitterCircle />
