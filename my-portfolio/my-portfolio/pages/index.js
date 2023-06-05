@@ -27,14 +27,16 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div>
+          <div className='text-center p-10'>
             <h2>Ramez Al-Siddiq</h2>
             <h3>Junior Software Engineer.</h3>
             <p>
               I deliver seamless digital experiences for end-users
             </p>
             <div>
-
+              <AiFillTwitterCircle />
+              <AiFillLinkedin />
+              <AiFillYoutube />
             </div>
           </div>
         </section>
