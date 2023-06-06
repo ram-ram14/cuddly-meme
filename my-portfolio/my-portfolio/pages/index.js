@@ -55,7 +55,7 @@ export default function Home() {
             <h3 className='text-3xl py-1'>Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
               Since I graduated from university, I've worked as an
-              <span> Associate Product Manager</span>, working in cross-functional teams with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. 
+              <span className='text-teal-500'> Associate Product Manager</span>, working in <span className='text-teal-500'>cross-functional teams</span> with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. 
             </p>
           </div>
         </section>
