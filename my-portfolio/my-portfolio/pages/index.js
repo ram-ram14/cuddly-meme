@@ -44,7 +44,7 @@ export default function Home() {
               <AiFillLinkedin />
               <AiFillGithub />
             </div>
-            <div className=''>
+            <div className='relative'>
               <Image src={miles} />
             </div>
           </div>
