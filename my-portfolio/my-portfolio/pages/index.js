@@ -45,7 +45,7 @@ export default function Home() {
               <AiFillGithub />
             </div>
             <div className=''>
-
+              <Image src={miles} />
             </div>
           </div>
         </section>
