@@ -53,6 +53,9 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1'>Services I offer</h3>
+            <p>
+              Since I started coding with General Assembly, I've worked on 3 projects which are displayed below.
+            </p>
           </div>
         </section>
       </main>
