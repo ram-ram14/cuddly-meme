@@ -33,7 +33,7 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800'>
               I deliver seamless digital experiences for end-users. Check out my awesome work below!
             </p>
-            <div>
+            <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
               <AiFillTwitterCircle />
               <AiFillLinkedin />
               <AiFillGithub />
