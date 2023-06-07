@@ -37,7 +37,7 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Ramez Al-Siddiq</h2>
             <h3 className='text-2xl py-2'>Junior Software Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>
-              I deliver seamless digital experiences for end-users. Check out my awesome work below!
+              I deliver seamless digital experiences for end-users.
             </p>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
               <AiFillTwitterCircle />
@@ -52,10 +52,13 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Services I offer</h3>
+            <h3 className='text-3xl py-1'>Experience</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
               Since I graduated from university, I've worked as an
-              <span className='text-teal-500'> Associate Product Manager</span>, working in <span className='text-teal-500'>cross-functional teams</span> with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. 
+              <span className='text-teal-500'> Associate Product Manager</span>, working in <span className='text-teal-500'>cross-functional teams</span> with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
+            </p>
+            <p>
+              Read on to see some of my work.
             </p>
           </div>
         </section>
