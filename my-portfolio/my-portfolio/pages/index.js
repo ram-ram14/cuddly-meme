@@ -61,14 +61,16 @@ export default function Home() {
               <span className='text-teal-500'> Associate Product Manager</span> working in <span className='text-teal-500'>cross-functional teams</span> with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
             </p>
             <p className='text-md py-2 leading-8 text-gray-800'>
-              Read on to see some of my work.
+              What I can bring to the table?
             </p>
           </div>
           <div>
             <div>
               <Image src={design} width={100} height={100}/>
-              <h3>Chic Designs</h3>
-              <p></p>
+              <h3>User-Centered Design</h3>
+              <p>
+                Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
+              </p>
             </div>
           </div>
         </section>
