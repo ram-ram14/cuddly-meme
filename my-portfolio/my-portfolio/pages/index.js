@@ -65,7 +65,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex flex-col items-center'>
               <Image src={code} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Software Engineering
@@ -78,7 +78,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Ruby</p>
               <p className='text-gray-800 py-1'>HTML & CSS</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl py-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl py-10 flex flex-col items-center'>
               <Image src={design} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 User-Centred Design
@@ -91,7 +91,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Sketch</p>
               <p className='text-gray-800 py-1'>Canva</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl py-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl py-10 flex flex-col items-center'>
               <Image src={consulting} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Lean Product Management
