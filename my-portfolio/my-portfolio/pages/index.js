@@ -7,6 +7,9 @@ import {
 } from 'react-icons/ai';
 import Image from 'next/image';
 import miles from '../public/miles-morales.jpg';
+import design from '../public/design.png';
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
 
 export default function Home() {
   return (
@@ -55,11 +58,16 @@ export default function Home() {
             <h3 className='text-3xl py-1'>Experience</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
               Since I graduated from university, I've worked as an
-              <span className='text-teal-500'> Associate Product Manager</span>, working in <span className='text-teal-500'>cross-functional teams</span> with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
+              <span className='text-teal-500'> Associate Product Manager</span> working in <span className='text-teal-500'>cross-functional teams</span> with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
             </p>
             <p className='text-md py-2 leading-8 text-gray-800'>
               Read on to see some of my work.
             </p>
+          </div>
+          <div>
+            <div>
+              <Image src={design}/>
+            </div>
           </div>
         </section>
       </main>
