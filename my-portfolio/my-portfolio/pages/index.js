@@ -68,7 +68,7 @@ export default function Home() {
             <div>
               <Image src={design} width={100} height={100}/>
               <h3>User-Centered Design</h3>
-              <p>
+              <p className='py-2'>
                 Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
               </p>
               <h4 className='py-4 text-teal-600'>Programming Languages I use</h4>
