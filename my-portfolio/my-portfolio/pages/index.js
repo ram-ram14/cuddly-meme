@@ -61,17 +61,17 @@ export default function Home() {
               <span className='text-teal-500'> Associate Product Manager</span> working in <span className='text-teal-500'>cross-functional teams</span> with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
             </p>
             <p className='text-md py-2 leading-8 text-gray-800'>
-              What I offer?
+              What I bring to the table?
             </p>
           </div>
           <div>
             <div className='text-center shadow-lg p-10 rounded-xl py-10'>
-              <Image src={design} width={100} height={100} />
+              <Image src={code} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
-                User-Centered Design
+                Software Engineering
               </h3>
               <p className='py-2'>
-                Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
+                Accelerate the delivery of software and modernise legacy apps using extreme programming practices such as test-driven development, pair-programming and continuous integration and deployment. 
               </p>
               <h4 className='py-4 text-teal-600'>Programming Languages I use</h4>
               <p className='text-gray-800 py-1'>JavaScript</p>
@@ -81,28 +81,28 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl py-10'>
               <Image src={design} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
-                User-Centered Design
+                User-Centred Design
               </h3>
               <p className='py-2'>
                 Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
               </p>
-              <h4 className='py-4 text-teal-600'>Programming Languages I use</h4>
-              <p className='text-gray-800 py-1'>JavaScript</p>
-              <p className='text-gray-800 py-1'>Ruby</p>
-              <p className='text-gray-800 py-1'>HTML & CSS</p>
+              <h4 className='py-4 text-teal-600'>Design Tools I know</h4>
+              <p className='text-gray-800 py-1'>Figma</p>
+              <p className='text-gray-800 py-1'>Sketch</p>
+              <p className='text-gray-800 py-1'>Canva</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl py-10'>
-              <Image src={design} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
-                User-Centered Design
+                Lean Product Management
               </h3>
               <p className='py-2'>
-                Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
+                Deliver customer experiences that make an impact and drive business outcomes that meet your bottom line.
               </p>
-              <h4 className='py-4 text-teal-600'>Programming Languages I use</h4>
-              <p className='text-gray-800 py-1'>JavaScript</p>
-              <p className='text-gray-800 py-1'>Ruby</p>
-              <p className='text-gray-800 py-1'>HTML & CSS</p>
+              <h4 className='py-4 text-teal-600'>What it involves?</h4>
+              <p className='text-gray-800 py-1'>Aligning market needs and business priority</p>
+              <p className='text-gray-800 py-1'>Reducing risk through frequent validation</p>
+              <p className='text-gray-800 py-1'>Measuring impact and continuously improving</p>
             </div>
           </div>
         </section>
