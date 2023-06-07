@@ -65,8 +65,34 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <div>
-              <Image src={design} width={100} height={100}/>
+            <div className='text-center shadow-lg p-10 rounded-xl py-10'>
+              <Image src={design} width={100} height={100} />
+              <h3 className='text-lg font-medium pt-8 pb-2'>
+                User-Centered Design
+              </h3>
+              <p className='py-2'>
+                Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
+              </p>
+              <h4 className='py-4 text-teal-600'>Programming Languages I use</h4>
+              <p className='text-gray-800 py-1'>JavaScript</p>
+              <p className='text-gray-800 py-1'>Ruby</p>
+              <p className='text-gray-800 py-1'>HTML & CSS</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl py-10'>
+              <Image src={design} width={100} height={100} />
+              <h3 className='text-lg font-medium pt-8 pb-2'>
+                User-Centered Design
+              </h3>
+              <p className='py-2'>
+                Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
+              </p>
+              <h4 className='py-4 text-teal-600'>Programming Languages I use</h4>
+              <p className='text-gray-800 py-1'>JavaScript</p>
+              <p className='text-gray-800 py-1'>Ruby</p>
+              <p className='text-gray-800 py-1'>HTML & CSS</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl py-10'>
+              <Image src={design} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 User-Centered Design
               </h3>
