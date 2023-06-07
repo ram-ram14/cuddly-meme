@@ -108,7 +108,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3>Portfolio</h3>
+            <h3 className='text-3xl py-1'>Portfolio</h3>
           </div>
         </section>
       </main>
