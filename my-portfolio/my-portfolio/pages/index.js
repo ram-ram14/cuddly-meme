@@ -107,7 +107,9 @@ export default function Home() {
           </div>
         </section>
         <section>
-          
+          <div>
+            <h3>Portfolio</h3>
+          </div>
         </section>
       </main>
     </div>
