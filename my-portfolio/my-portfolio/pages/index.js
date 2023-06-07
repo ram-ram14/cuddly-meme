@@ -61,7 +61,7 @@ export default function Home() {
               <span className='text-teal-500'> Associate Product Manager</span> working in <span className='text-teal-500'>cross-functional teams</span> with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
             </p>
             <p className='text-md py-2 leading-8 text-gray-800'>
-              What I can bring to the table?
+              What I offer?
             </p>
           </div>
           <div>
@@ -71,6 +71,7 @@ export default function Home() {
               <p>
                 Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
               </p>
+              <h4>Programming Languages I use</h4>
             </div>
           </div>
         </section>
