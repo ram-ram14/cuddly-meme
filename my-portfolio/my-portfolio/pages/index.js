@@ -57,7 +57,7 @@ export default function Home() {
               Since I graduated from university, I've worked as an
               <span className='text-teal-500'> Associate Product Manager</span>, working in <span className='text-teal-500'>cross-functional teams</span> with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
             </p>
-            <p>
+            <p className='text-md py-2 leading-8 text-gray-800'>
               Read on to see some of my work.
             </p>
           </div>
