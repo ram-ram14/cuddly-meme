@@ -71,7 +71,7 @@ export default function Home() {
               <p>
                 Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
               </p>
-              <h4>Programming Languages I use</h4>
+              <h4 className='py-4 text-teal-600'>Programming Languages I use</h4>
               <p className='text-gray-800 py-1'>JavaScript</p>
               <p className='text-gray-800 py-1'>Ruby</p>
               <p className='text-gray-800 py-1'>HTML & CSS</p>
