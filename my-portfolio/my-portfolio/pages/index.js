@@ -58,7 +58,7 @@ export default function Home() {
             <h3 className='text-3xl py-1'>Experience</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
               Since I graduated from university, I've worked as an
-              <span className='text-teal-500'> Associate Product Manager</span> working in <span className='text-teal-500'>cross-functional teams</span> with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
+              <span className='text-teal-500'> Associate Product Manager</span> working in cross-functional teams with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
             </p>
             <p className='text-md py-2 leading-8 text-gray-800'>
               What I bring to the table?
@@ -109,6 +109,12 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1'>Portfolio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800'>
+              During my Software Engineering Immersive Bootcamp at <span className='text-teal-500'> General Assembly</span>, I worked on a variety of <span className='text-teal-500'> projects</span> which are featured below.
+            </p>
+            <p className='text-md py-2 leading-8 text-gray-800'>
+              Read on to learn more...
+            </p>
           </div>
         </section>
       </main>
