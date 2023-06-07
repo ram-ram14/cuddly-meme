@@ -66,7 +66,7 @@ export default function Home() {
           </div>
           <div>
             <div>
-              <Image src={design}/>
+              <Image src={design} width={100} height={100}/>
             </div>
           </div>
         </section>
