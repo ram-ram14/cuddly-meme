@@ -1,13 +1,15 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { 
-  AiFillTwitterCircle, 
   AiFillLinkedin, 
   AiFillGithub, 
   AiFillMediumCircle
 } from 'react-icons/ai';
 import Image from 'next/image';
 import miles from '../public/miles-morales.jpg';
+import code from "../public/code.png";
+import design from "../public/design.png";
+import product from "../public/product.png";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -26,9 +28,9 @@ export default function Home() {
         <link rel='icon' href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
+      <main className='bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
         <section className='min-h-screen'>
-          <nav className='py-10 mb-12 flex justify-between'>
+          <nav className='py-10 mb-12 flex justify-between dark:text-white'>
             <h1 className='text-xl font-sans'>my-portfolio</h1>
             <ul className='flex items-center'>
               <li>
@@ -43,12 +45,12 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Ramez Al-Siddiq</h2>
-            <h3 className='text-2xl py-2 md:text-3xl'>Junior Software Engineer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Ramez Al-Siddiq</h2>
+            <h3 className='text-2xl py-2 dark:text-white md:text-3xl'>Junior Software Engineer</h3>
+            <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'>
               I deliver seamless <span className='text-teal-500'> digital experiences</span> for end-users leveraging user-centred design, extreme programming and lean product management methodologies.
             </p>
-            <div className='text-5xl flex justify-center gap-16 py-3 text-gray-400'>
+            <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
               <a href='https://medium.com/@ramez-sydney'>
               <AiFillMediumCircle />
               </a>
@@ -59,7 +61,7 @@ export default function Home() {
               <AiFillGithub />
               </a>
             </div>
-            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+            <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96'>
               <Image src={miles} layout="fill" objectFit='cover' />
             </div>
           </div>
@@ -67,17 +69,20 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className='text-3xl py-1 md:text-3xl max-w-lg mx-auto'>Experience</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 max-w-lg mx-auto'>
+            <h3 className='text-3xl py-1 dark:text-white'>Experience</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               Since I've graduated from university, I've worked as an
               <span className='text-teal-500'> Associate Product Manager</span> working in cross-functional teams with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
             </p>
-            <h4 className='text-lg py-5 leading-8 text-gray-800 max-w-lg mx-auto'>
-              What I bring to the table?
-            </h4>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
+              I offer a wide range of services from programming to consulting.
+            </p>
           </div>
           <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-white'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'>
+              <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-20 md:w-20'>
+                <Image src={code} layout="fill" objectFit="cover"/>
+              </div>
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Software Engineering
               </h3>
@@ -89,7 +94,10 @@ export default function Home() {
               <p className='text-gray-800 py-1'>CI/CD</p>
               <p className='text-gray-800 py-1'>Pair-Programming</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+              <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-20 md:w-20'>
+              <Image src={design} layout="fill" objectFit="cover" />
+              </div>
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 User-Centred Design
               </h3>
@@ -101,7 +109,10 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Sketch</p>
               <p className='text-gray-800 py-1'>Canva</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+              <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-20 md:w-20'>
+              <Image src={product} layout="fill" objectFit="cover" />
+              </div>
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Lean Product Management
               </h3>
@@ -115,10 +126,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section className="py-10">
           <div>
-            <h3 className='text-3xl py-1 md:text-3xl max-w-lg mx-auto'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 max-w-lg mx-auto'>
+            <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               During my Software Engineering Immersive Bootcamp at <span className='text-teal-500'> General Assembly</span>, I worked on a variety of <span className='text-teal-500'> projects</span> which are featured below.
             </p>
           </div>
