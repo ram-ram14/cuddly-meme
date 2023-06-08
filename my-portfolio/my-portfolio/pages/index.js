@@ -122,7 +122,7 @@ export default function Home() {
               Read on to learn more...
             </p>
           </div>
-          <div>
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div>
               <Image src={web1} />
             </div>
