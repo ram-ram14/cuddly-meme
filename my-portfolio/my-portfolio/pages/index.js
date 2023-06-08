@@ -126,6 +126,21 @@ export default function Home() {
             <div>
               <Image src={web1} />
             </div>
+            <div>
+              <Image src={web2} />
+            </div>
+            <div>
+              <Image src={web3} />
+            </div>
+            <div>
+              <Image src={web4} />
+            </div>
+            <div>
+              <Image src={web5} />
+            </div>
+            <div>
+              <Image src={web6} />
+            </div>
           </div>
         </section>
       </main>
