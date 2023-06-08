@@ -80,7 +80,7 @@ export default function Home() {
           </div>
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'>
-              <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-20 md:w-20'>
+              <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 relative overflow-hidden mt-20 md:h-20 md:w-20'>
                 <Image src={code} layout="fill" objectFit="cover"/>
               </div>
               <h3 className='text-lg font-medium pt-8 pb-2'>
@@ -95,7 +95,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Pair-Programming</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-20 md:w-20'>
+              <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 relative overflow-hidden mt-20 md:h-20 md:w-20'>
               <Image src={design} layout="fill" objectFit="cover" />
               </div>
               <h3 className='text-lg font-medium pt-8 pb-2'>
@@ -110,7 +110,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Canva</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-20 md:w-20'>
+              <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 relative overflow-hidden mt-20 md:h-20 md:w-20'>
               <Image src={product} layout="fill" objectFit="cover" />
               </div>
               <h3 className='text-lg font-medium pt-8 pb-2'>
