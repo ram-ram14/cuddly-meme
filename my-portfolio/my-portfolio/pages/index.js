@@ -34,7 +34,7 @@ export default function Home() {
             <h1 className='text-xl font-sans'>my-portfolio</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/>
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' style={{ color: '#000000' }}/>
               </li>
               <li>
                 <a 
