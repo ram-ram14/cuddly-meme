@@ -14,6 +14,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import {useState} from 'react';
 
 export default function Home() {
   return (
@@ -70,9 +71,9 @@ export default function Home() {
               Since I've graduated from university, I've worked as an
               <span className='text-teal-500'> Associate Product Manager</span> working in cross-functional teams with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
             </p>
-            <p className='text-md py-2 leading-8 text-gray-800 max-w-lg mx-auto'>
+            <h4 className='text-lg py-5 leading-8 text-gray-800 max-w-lg mx-auto'>
               What I bring to the table?
-            </p>
+            </h4>
           </div>
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
