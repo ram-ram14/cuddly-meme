@@ -20,7 +20,6 @@ import {useState} from 'react'; // Importing the 'useState' hook from React
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false); // Using the 'useState' hook to create a state variable 'darkMode' and a setter function 'setDarkMode'
-
   return (
     <div className={darkMode ? 'dark' : ''}> {/* A div with a dynamic className based on the value of 'darkMode' */}
       <Head> {/* The 'Head' component to update the document's head */}
@@ -49,7 +48,7 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Ramez Al-Siddiq</h2> {/* The name */}
             <h3 className='text-gray-800 text-2xl py-2 dark:text-white md:text-3xl'>Junior Software Engineer</h3> {/* The job title */}
             <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'> {/* The description */}
-              I deliver seamless <span className='text-teal-500'> digital experiences</span> for end-users leveraging user-centred design, extreme programming and lean product management methodologies.
+              I deliver seamless <span className='text-teal-500'> digital experiences</span> for end-users leveraging user-centered design, extreme programming and lean product management methodologies.
             </p>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'> {/* Social media icons */}
               <a href='https://medium.com/@ramez-sydney' target="_blank" rel="noopener noreferrer">
@@ -100,7 +99,7 @@ export default function Home() {
               <Image src={design} layout="fill" objectFit="cover" /> {/* The image */}
               </div>
               <h3 className='text-gray-800 text-lg font-medium pt-8 pb-2'> {/* Heading */}
-                User-Centred Design
+                User-Centered Design
               </h3>
               <p className='text-gray-800 py-2'> {/* Text content */}
                 Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
@@ -127,6 +126,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
         <section className="py-10"> {/* Another section */}
           <div> {/* A div */}
             <h3 className='text-gray-800 text-3xl py-1 dark:text-white'>Portfolio</h3> {/* Section heading */}
@@ -142,13 +142,13 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web2} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Video Game Progress Bar</h3> {/* Project name */}
+              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Video Game Completion Progress</h3> {/* Project name */}
               <p className='text-gray-800 dark:text-white'>Design Mockup using Sketch.</p> {/* Project description */}
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web3} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
               <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Formula Academy</h3> {/* Project name */}
-              <p className='text-gray-800 dark:text-white'>Side-project for fun.</p> {/* Project description */}
+              <p className='text-gray-800 dark:text-white'>Side-project using Vanilla javaScript, HTML & CSS.</p> {/* Project description */}
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web4} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
@@ -163,7 +163,7 @@ export default function Home() {
             <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web6} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
               <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Film Rave</h3> {/* Project name */}
-              <p className='text-gray-800 dark:text-white'>Built using Ruby on Rails for avid movie watchers.</p> {/* Project description */}
+              <p className='text-gray-800 dark:text-white'>Built using Ruby on Rails for my fellow cinephiles.</p> {/* Project description */}
             </div>
           </div>
         </section>
