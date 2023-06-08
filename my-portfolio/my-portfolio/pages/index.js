@@ -3,7 +3,7 @@ import { BsFillMoonStarsFill } from 'react-icons/bs'; // Importing an icon from 
 import { 
   AiFillLinkedin, 
   AiFillGithub, 
-  AiFillMediumCircle
+  AiFillMediumCircle,
 } from 'react-icons/ai'; // Importing icons from the 'react-icons/ai' library
 import Image from 'next/image'; // Importing the 'Image' component from Next.js
 import miles from '../public/miles-morales.jpg'; // Importing an image file
@@ -32,14 +32,14 @@ export default function Home() {
       <main className='bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'> {/* The main content of the page */}
         <section className='min-h-screen'> {/* A section element */}
           <nav className='py-10 mb-12 flex justify-between dark:text-white'> {/* The navigation bar */}
-            <h1 className='text-xl font-sans' style={{ color: '#000000' }}>my-portfolio</h1> {/* The heading */}
+            <h1 className='text-gray-800 text-xl font-sans dark:text-white'>my-portfolio</h1> {/* The heading */}
             <ul className='flex items-center'> {/* A list */}
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' style={{ color: '#000000' }}/> {/* An icon that toggles dark mode */}
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='text-gray-800 cursor-pointer text-2xl dark:text-white'/> {/* An icon that toggles dark mode */}
               </li>
               <li>
                 <a 
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" href='https://impossible-roundworm-e26.notion.site/Ramez-Al-Siddiq-89ad25c1627246ea93c30de78e53f6a2?pvs=4' target="_blank" rel="noopener noreferrer">
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" href='https://impossible-roundworm-e26.notion.site/Ramez-Al-Siddiq-89ad25c1627246ea93c30de78e53f6a2?pvs=4' target="_blank" rel="noopener noreferrer">
                   Resume
                 </a> {/* A link to the resume */}
               </li>
@@ -47,7 +47,7 @@ export default function Home() {
           </nav>
           <div className='text-center p-10 py-10'> {/* A container div */}
             <h2 className='text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Ramez Al-Siddiq</h2> {/* The name */}
-            <h3 className='text-2xl py-2 dark:text-white md:text-3xl'>Junior Software Engineer</h3> {/* The job title */}
+            <h3 className='text-gray-800 text-2xl py-2 dark:text-white md:text-3xl'>Junior Software Engineer</h3> {/* The job title */}
             <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'> {/* The description */}
               I deliver seamless <span className='text-teal-500'> digital experiences</span> for end-users leveraging user-centred design, extreme programming and lean product management methodologies.
             </p>
@@ -70,7 +70,7 @@ export default function Home() {
 
         <section> {/* Another section */}
           <div> {/* A div */}
-            <h3 className='text-3xl py-1 dark:text-white'>Experience</h3> {/* Section heading */}
+            <h3 className='text-gray-800 text-3xl py-1 dark:text-white'>Experience</h3> {/* Section heading */}
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'> {/* Text content */}
               Since I've graduated from university, I've worked as an
               <span className='text-teal-500'> Associate Product Manager</span> working in cross-functional teams with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
@@ -84,10 +84,10 @@ export default function Home() {
               <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 relative overflow-hidden mt-20 md:h-20 md:w-20'> {/* An image container */}
                 <Image src={code} layout="fill" objectFit="cover"/> {/* The image */}
               </div>
-              <h3 className='text-lg font-medium pt-8 pb-2'> {/* Heading */}
+              <h3 className='text-gray-800 text-lg font-medium pt-8 pb-2'> {/* Heading */}
                 Software Engineering
               </h3>
-              <p className='py-2'> {/* Text content */}
+              <p className='text-gray-800 py-2'> {/* Text content */}
                 Accelerate the delivery of software and modernise legacy apps. 
               </p>
               <h4 className='py-4 text-teal-600'>Practices</h4> {/* Subheading */}
@@ -99,10 +99,10 @@ export default function Home() {
               <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 relative overflow-hidden mt-20 md:h-20 md:w-20'> {/* An image container */}
               <Image src={design} layout="fill" objectFit="cover" /> {/* The image */}
               </div>
-              <h3 className='text-lg font-medium pt-8 pb-2'> {/* Heading */}
+              <h3 className='text-gray-800 text-lg font-medium pt-8 pb-2'> {/* Heading */}
                 User-Centred Design
               </h3>
-              <p className='py-2'> {/* Text content */}
+              <p className='text-gray-800 py-2'> {/* Text content */}
                 Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
               </p>
               <h4 className='py-4 text-teal-600'>Design Tools I know</h4> {/* Subheading */}
@@ -114,10 +114,10 @@ export default function Home() {
               <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 relative overflow-hidden mt-20 md:h-20 md:w-20'> {/* An image container */}
               <Image src={product} layout="fill" objectFit="cover" /> {/* The image */}
               </div>
-              <h3 className='text-lg font-medium pt-8 pb-2'> {/* Heading */}
+              <h3 className='text-gray-800 text-lg font-medium pt-8 pb-2'> {/* Heading */}
                 Lean Product Management
               </h3>
-              <p className='py-2'> {/* Text content */}
+              <p className='text-gray-800 py-2'> {/* Text content */}
                 Deliver customer experiences that make an impact and drive business outcomes.
               </p>
               <h4 className='py-4 text-teal-600'>What it involves?</h4> {/* Subheading */}
@@ -129,41 +129,41 @@ export default function Home() {
         </section>
         <section className="py-10"> {/* Another section */}
           <div> {/* A div */}
-            <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3> {/* Section heading */}
+            <h3 className='text-gray-800 text-3xl py-1 dark:text-white'>Portfolio</h3> {/* Section heading */}
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'> {/* Text content */}
               During my Software Engineering Immersive Bootcamp at <span className='text-teal-500'> General Assembly</span>, I worked on a variety of <span className='text-teal-500'> projects</span> which are featured below.
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'> {/* A container div */}
-            <div className='flex-1'> {/* A div */}
+            <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web1} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Petite Notebook</h3> {/* Project name */}
-              <p className='text-gray-800'>Built a blog with GraphQL in next.js.</p> {/* Project description */}
+              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Petite Notebook</h3> {/* Project name */}
+              <p className='text-gray-800 dark:text-white'>Built a blog with GraphQL and next.js.</p> {/* Project description */}
             </div>
-            <div className='flex-1'> {/* A div */}
+            <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web2} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Video Game Progress Bar</h3> {/* Project name */}
-              <p className='text-gray-800'>Design Mockup using Sketch.</p> {/* Project description */}
+              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Video Game Progress Bar</h3> {/* Project name */}
+              <p className='text-gray-800 dark:text-white'>Design Mockup using Sketch.</p> {/* Project description */}
             </div>
-            <div className='flex-1'> {/* A div */}
+            <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web3} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Formula Academy</h3> {/* Project name */}
-              <p className='text-gray-800'>Side-project for fun.</p> {/* Project description */}
+              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Formula Academy</h3> {/* Project name */}
+              <p className='text-gray-800 dark:text-white'>Side-project for fun.</p> {/* Project description */}
             </div>
-            <div className='flex-1'> {/* A div */}
+            <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web4} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Dive Track</h3> {/* Project name */}
-              <p className='text-gray-800'>Built for scuba diving enthusiasts using React and Supabase.</p> {/* Project description */}
+              <h3 className=' text-gray-800 text-lg font-medium py-4 dark:text-white'>Dive Track</h3> {/* Project name */}
+              <p className='text-gray-800 dark:text-white'>Built for scuba diving enthusiasts using React and Supabase.</p> {/* Project description */}
             </div>
-            <div className='flex-1'> {/* A div */}
+            <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web5} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Tic-Tac-Toe</h3> {/* Project name */}
-              <p className='text-gray-800'>Rite-of-passage for any learning developer.</p> {/* Project description */}
+              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Tic-Tac-Toe</h3> {/* Project name */}
+              <p className='text-gray-800 dark:text-white'>Rite-of-passage for any learning developer.</p> {/* Project description */}
             </div>
-            <div className='flex-1'> {/* A div */}
+            <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web6} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Film Rave</h3> {/* Project name */}
-              <p className='text-gray-800'>Built using Ruby on Rails for avid movie watchers.</p> {/* Project description */}
+              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Film Rave</h3> {/* Project name */}
+              <p className='text-gray-800 dark:text-white'>Built using Ruby on Rails for avid movie watchers.</p> {/* Project description */}
             </div>
           </div>
         </section>
