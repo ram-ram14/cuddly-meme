@@ -137,33 +137,33 @@ export default function Home() {
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'> {/* A container div */}
             <div className='flex-1'> {/* A div */}
               <Image src={web1} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Project Name</h3> {/* Project name */}
-              <p className='text-gray-800'>Description of the project.</p> {/* Project description */}
+              <h3 className='text-lg font-medium py-4'>Petite Notebook</h3> {/* Project name */}
+              <p className='text-gray-800'>Built a blog with GraphQL in next.js.</p> {/* Project description */}
             </div>
             <div className='flex-1'> {/* A div */}
               <Image src={web2} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Project Name</h3> {/* Project name */}
-              <p className='text-gray-800'>Description of the project.</p> {/* Project description */}
+              <h3 className='text-lg font-medium py-4'>Video Game Progress Bar</h3> {/* Project name */}
+              <p className='text-gray-800'>Design Mockup using Sketch.</p> {/* Project description */}
             </div>
             <div className='flex-1'> {/* A div */}
               <Image src={web3} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Project Name</h3> {/* Project name */}
-              <p className='text-gray-800'>Description of the project.</p> {/* Project description */}
+              <h3 className='text-lg font-medium py-4'>Formula Academy</h3> {/* Project name */}
+              <p className='text-gray-800'>Side-project for fun.</p> {/* Project description */}
             </div>
             <div className='flex-1'> {/* A div */}
               <Image src={web4} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Project Name</h3> {/* Project name */}
-              <p className='text-gray-800'>Description of the project.</p> {/* Project description */}
+              <h3 className='text-lg font-medium py-4'>Dive Track</h3> {/* Project name */}
+              <p className='text-gray-800'>Built for scuba diving enthusiasts using React and Supabase.</p> {/* Project description */}
             </div>
             <div className='flex-1'> {/* A div */}
               <Image src={web5} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Project Name</h3> {/* Project name */}
-              <p className='text-gray-800'>Description of the project.</p> {/* Project description */}
+              <h3 className='text-lg font-medium py-4'>Tic-Tac-Toe</h3> {/* Project name */}
+              <p className='text-gray-800'>Rite-of-passage for any learning developer.</p> {/* Project description */}
             </div>
             <div className='flex-1'> {/* A div */}
               <Image src={web6} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-lg font-medium py-4'>Project Name</h3> {/* Project name */}
-              <p className='text-gray-800'>Description of the project.</p> {/* Project description */}
+              <h3 className='text-lg font-medium py-4'>Film Rave</h3> {/* Project name */}
+              <p className='text-gray-800'>Built using Ruby on Rails for avid movie watchers.</p> {/* Project description */}
             </div>
           </div>
         </section>
