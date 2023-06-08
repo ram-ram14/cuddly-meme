@@ -70,7 +70,7 @@ export default function Home() {
               What I bring to the table?
             </p>
           </div>
-          <div>
+          <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 flex flex-col items-center'>
               <Image src={code} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
