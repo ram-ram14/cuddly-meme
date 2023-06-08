@@ -36,19 +36,19 @@ export default function Home() {
               </li>
               <li>
                 <a 
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href='#'>
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" href='https://impossible-roundworm-e26.notion.site/Ramez-Al-Siddiq-89ad25c1627246ea93c30de78e53f6a2?pvs=4'>
                   Resume
                 </a>
               </li>
             </ul>
           </nav>
-          <div className='text-center p-10'>
+          <div className='text-center p-10 py-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Ramez Al-Siddiq</h2>
             <h3 className='text-2xl py-2 md:text-3xl'>Junior Software Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
               I deliver seamless digital experiences for end-users.
             </p>
-            <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
+            <div className='text-5xl flex justify-center gap-16 py-3 text-gray-400'>
               <AiFillTwitterCircle />
               <AiFillLinkedin />
               <AiFillGithub />
@@ -71,20 +71,20 @@ export default function Home() {
             </p>
           </div>
           <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex flex-col items-center'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
               <Image src={code} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Software Engineering
               </h3>
               <p className='py-2'>
-                Accelerate the delivery of software and modernise legacy apps using extreme programming practices such as test-driven development, pair-programming and continuous integration and deployment. 
+                Accelerate the delivery of software and modernise legacy apps. 
               </p>
-              <h4 className='py-4 text-teal-600'>Programming Languages I use</h4>
-              <p className='text-gray-800 py-1'>JavaScript</p>
-              <p className='text-gray-800 py-1'>Ruby</p>
-              <p className='text-gray-800 py-1'>HTML & CSS</p>
+              <h4 className='py-4 text-teal-600'>Practices</h4>
+              <p className='text-gray-800 py-1'>TDD</p>
+              <p className='text-gray-800 py-1'>CI/CD</p>
+              <p className='text-gray-800 py-1'>Pair-Programming</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl py-10 flex flex-col items-center'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
               <Image src={design} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 User-Centred Design
@@ -97,7 +97,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Sketch</p>
               <p className='text-gray-800 py-1'>Canva</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl py-10 flex flex-col items-center'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
               <Image src={consulting} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Lean Product Management
@@ -117,9 +117,6 @@ export default function Home() {
             <h3 className='text-3xl py-1'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
               During my Software Engineering Immersive Bootcamp at <span className='text-teal-500'> General Assembly</span>, I worked on a variety of <span className='text-teal-500'> projects</span> which are featured below.
-            </p>
-            <p className='text-md py-2 leading-8 text-gray-800'>
-              Read on to learn more...
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
