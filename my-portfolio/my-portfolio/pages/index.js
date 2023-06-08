@@ -122,6 +122,11 @@ export default function Home() {
               Read on to learn more...
             </p>
           </div>
+          <div>
+            <div>
+              <Image src={web1} />
+            </div>
+          </div>
         </section>
       </main>
     </div>
