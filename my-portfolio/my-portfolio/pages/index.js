@@ -137,7 +137,7 @@ export default function Home() {
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'> {/* A container div */}
             <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web1} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Petite Notebook</h3> {/* Project name */}
+              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Scribble Giggles</h3> {/* Project name */}
               <p className='text-gray-800 dark:text-white'>Built a blog with GraphQL and next.js.</p> {/* Project description */}
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
