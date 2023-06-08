@@ -38,7 +38,7 @@ export default function Home() {
               </li>
               <li>
                 <a 
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" href='https://impossible-roundworm-e26.notion.site/Ramez-Al-Siddiq-89ad25c1627246ea93c30de78e53f6a2?pvs=4'>
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" href='https://impossible-roundworm-e26.notion.site/Ramez-Al-Siddiq-89ad25c1627246ea93c30de78e53f6a2?pvs=4' target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </li>
@@ -51,13 +51,13 @@ export default function Home() {
               I deliver seamless <span className='text-teal-500'> digital experiences</span> for end-users leveraging user-centred design, extreme programming and lean product management methodologies.
             </p>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-              <a href='https://medium.com/@ramez-sydney'>
+              <a href='https://medium.com/@ramez-sydney' target="_blank" rel="noopener noreferrer">
               <AiFillMediumCircle />
               </a>
-              <a href='https://www.linkedin.com/in/ramezalsiddiq/'>
+              <a href='https://www.linkedin.com/in/ramezalsiddiq/' target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin />
               </a>
-              <a href='https://github.com/ram-ram14'>
+              <a href='https://github.com/ram-ram14' target="_blank" rel="noopener noreferrer">
               <AiFillGithub />
               </a>
             </div>
