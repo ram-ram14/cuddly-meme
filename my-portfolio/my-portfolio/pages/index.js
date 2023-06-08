@@ -4,12 +4,10 @@ import {
   AiFillTwitterCircle, 
   AiFillLinkedin, 
   AiFillGithub, 
+  AiFillMediumCircle
 } from 'react-icons/ai';
 import Image from 'next/image';
 import miles from '../public/miles-morales.jpg';
-import design from '../public/design.png';
-import code from '../public/code.png';
-import consulting from '../public/consulting.png';
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -29,7 +27,7 @@ export default function Home() {
       <main className='bg-white px-10 md:px-20 lg:px-40'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl font-sans'>@ram-ram14</h1>
+            <h1 className='text-xl font-sans'>my-portfolio</h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
@@ -46,12 +44,18 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Ramez Al-Siddiq</h2>
             <h3 className='text-2xl py-2 md:text-3xl'>Junior Software Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
-              I deliver seamless digital experiences for end-users.
+              I deliver seamless <span className='text-teal-500'> digital experiences</span> for end-users leveraging user-centred design, extreme programming and lean product management methodologies.
             </p>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-400'>
-              <AiFillTwitterCircle />
+              <a href='https://medium.com/@ramez-sydney'>
+              <AiFillMediumCircle />
+              </a>
+              <a href='https://www.linkedin.com/in/ramezalsiddiq/'>
               <AiFillLinkedin />
+              </a>
+              <a href='https://github.com/ram-ram14'>
               <AiFillGithub />
+              </a>
             </div>
             <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
               <Image src={miles} layout="fill" objectFit='cover' />
@@ -61,18 +65,17 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Experience</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>
-              Since I graduated from university, I've worked as an
+            <h3 className='text-3xl py-1 md:text-3xl max-w-lg mx-auto'>Experience</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 max-w-lg mx-auto'>
+              Since I've graduated from university, I've worked as an
               <span className='text-teal-500'> Associate Product Manager</span> working in cross-functional teams with Product Designers and Software Engineers to deliver products that are desirable, feasible and viable. And now, I've taken a leap of faith and entered the realm of <span className='text-teal-500'>software engineering</span>. 
             </p>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <p className='text-md py-2 leading-8 text-gray-800 max-w-lg mx-auto'>
               What I bring to the table?
             </p>
           </div>
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
-              <Image src={code} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Software Engineering
               </h3>
@@ -85,7 +88,6 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Pair-Programming</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
-              <Image src={design} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 User-Centred Design
               </h3>
@@ -98,24 +100,23 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Canva</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 flex-1'>
-              <Image src={consulting} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Lean Product Management
               </h3>
               <p className='py-2'>
-                Deliver customer experiences that make an impact and drive business outcomes that meet your bottom line.
+                Deliver customer experiences that make an impact and drive business outcomes.
               </p>
               <h4 className='py-4 text-teal-600'>What it involves?</h4>
-              <p className='text-gray-800 py-1'>Aligning market needs and business priority</p>
+              <p className='text-gray-800 py-1'>Aligning market needs & business priority</p>
               <p className='text-gray-800 py-1'>Reducing risk through frequent validation</p>
-              <p className='text-gray-800 py-1'>Measuring impact and continuously improving</p>
+              <p className='text-gray-800 py-1'>Measuring impact & continuously improving</p>
             </div>
           </div>
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <h3 className='text-3xl py-1 md:text-3xl max-w-lg mx-auto'>Portfolio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 max-w-lg mx-auto'>
               During my Software Engineering Immersive Bootcamp at <span className='text-teal-500'> General Assembly</span>, I worked on a variety of <span className='text-teal-500'> projects</span> which are featured below.
             </p>
           </div>
