@@ -31,7 +31,7 @@ export default function Home() {
       <main className='bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'> {/* The main content of the page */}
         <section className='min-h-screen'> {/* A section element */}
           <nav className='py-10 mb-12 flex justify-between dark:text-white'> {/* The navigation bar */}
-            <h1 className='text-gray-800 text-xl font-sans dark:text-white'>my-portfolio</h1> {/* The heading */}
+            <h1 className='text-gray-800 text-xl font-sans dark:text-white'>my-portfolio</h1> The heading
             <ul className='flex items-center'> {/* A list */}
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='text-gray-800 cursor-pointer text-2xl dark:text-white'/> {/* An icon that toggles dark mode */}
@@ -120,9 +120,9 @@ export default function Home() {
                 Deliver delightful experiences that drive business outcomes and success.
               </p>
               <h4 className='py-4 text-teal-600'>What it involves?</h4> {/* Subheading */}
-              <p className='text-gray-800 py-1'>Aligning Market Needs</p> {/* Text content */}
-              <p className='text-gray-800 py-1'>Reducing Risks</p> {/* Text content */}
-              <p className='text-gray-800 py-1'>Measures of Success</p> {/* Text content */}
+              <p className='text-gray-800 py-1'>Discovery</p> {/* Text content */}
+              <p className='text-gray-800 py-1'>Framing</p> {/* Text content */}
+              <p className='text-gray-800 py-1'>Ongoing Validation</p> {/* Text content */}
             </div>
           </div>
         </section>
