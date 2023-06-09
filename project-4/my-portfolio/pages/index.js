@@ -92,7 +92,7 @@ export default function Home() {
               <h4 className='py-4 text-teal-600'>Practices</h4> {/* Subheading */}
               <p className='text-gray-800 py-1'>TDD</p> {/* Text content */}
               <p className='text-gray-800 py-1'>CI/CD</p> {/* Text content */}
-              <p className='text-gray-800 py-1'>Pair-Programming</p> {/* Text content */}
+              <p className='text-gray-800 py-1'>PP</p> {/* Text content */}
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'> {/* A div */}
               <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 relative overflow-hidden mt-20 md:h-20 md:w-20'> {/* An image container */}
@@ -102,7 +102,7 @@ export default function Home() {
                 User-Centered Design
               </h3>
               <p className='text-gray-800 py-2'> {/* Text content */}
-                Gather user insights and incorporate findings to eliminate the risk of building the wrong thing.
+                Gather user insights & incorporate findings to eliminate risk.
               </p>
               <h4 className='py-4 text-teal-600'>Design Tools I know</h4> {/* Subheading */}
               <p className='text-gray-800 py-1'>Figma</p> {/* Text content */}
@@ -117,12 +117,12 @@ export default function Home() {
                 Lean Product Management
               </h3>
               <p className='text-gray-800 py-2'> {/* Text content */}
-                Deliver customer experiences that make an impact and drive business outcomes.
+                Deliver delightful experiences that drive business outcomes and success.
               </p>
               <h4 className='py-4 text-teal-600'>What it involves?</h4> {/* Subheading */}
-              <p className='text-gray-800 py-1'>Aligning market needs & business priority</p> {/* Text content */}
-              <p className='text-gray-800 py-1'>Reducing risk through frequent validation</p> {/* Text content */}
-              <p className='text-gray-800 py-1'>Measuring impact & continuously improving</p> {/* Text content */}
+              <p className='text-gray-800 py-1'>Aligning Market Needs</p> {/* Text content */}
+              <p className='text-gray-800 py-1'>Reducing Risks</p> {/* Text content */}
+              <p className='text-gray-800 py-1'>Measures of Success</p> {/* Text content */}
             </div>
           </div>
         </section>
@@ -147,7 +147,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web4} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Formula Driver Academy</h3> {/* Project name */}
+              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Driver Academy</h3> {/* Project name */}
               <p className='text-gray-800 dark:text-white'>Side-project using Vanilla javaScript, HTML & CSS.</p> {/* Project description */}
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
