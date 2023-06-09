@@ -146,7 +146,7 @@ export default function Home() {
               <p className='text-gray-800 dark:text-white'>Built for foodies.</p> {/* Project description */}
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
-              <Image src={web4} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
+              <Image src={web3} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
               <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Driver Academy</h3> {/* Project name */}
               <p className='text-gray-800 dark:text-white'>Side-project using Vanilla javaScript, HTML & CSS.</p> {/* Project description */}
             </div>
