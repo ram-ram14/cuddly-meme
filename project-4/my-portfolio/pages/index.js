@@ -31,7 +31,7 @@ export default function Home() {
       <main className='bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'> {/* The main content of the page */}
         <section className='min-h-screen'> {/* A section element */}
           <nav className='py-10 mb-12 flex justify-between dark:text-white'> {/* The navigation bar */}
-            <h1 className='text-gray-800 text-xl font-sans dark:text-white'>my-portfolio</h1> The heading
+            <h1 className='text-gray-800 text-xl font-sans dark:text-white'>my-portfolio</h1>
             <ul className='flex items-center'> {/* A list */}
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='text-gray-800 cursor-pointer text-2xl dark:text-white'/> {/* An icon that toggles dark mode */}
@@ -135,25 +135,17 @@ export default function Home() {
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'> {/* A container div */}
-            <div className='basis-1/3 flex-1'> {/* A div */}
-              <Image src={web4} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Little Scribbles</h3> {/* Project name */}
-              <p className='text-gray-800 dark:text-white'>Built a blog with GraphQL and next.js.</p> {/* Project description */}
+            <div className='basis-1/3 flex-1 '> {/* A div */}
+              <Image src={web1} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
-              <Image src={web4} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Delectable</h3> {/* Project name */}
-              <p className='text-gray-800 dark:text-white'>Built for foodies.</p> {/* Project description */}
+              <Image src={web6} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web3} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className='text-gray-800 text-lg font-medium py-4 dark:text-white'>Driver Academy</h3> {/* Project name */}
-              <p className='text-gray-800 dark:text-white'>Side-project using Vanilla javaScript, HTML & CSS.</p> {/* Project description */}
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web4} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
-              <h3 className=' text-gray-800 text-lg font-medium py-4 dark:text-white'>Dive Track</h3> {/* Project name */}
-              <p className='text-gray-800 dark:text-white'>Built for scuba diving enthusiasts using React and Supabase.</p> {/* Project description */}
             </div>
           </div>
         </section>
