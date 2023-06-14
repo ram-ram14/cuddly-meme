@@ -1,19 +1,21 @@
 import Head from 'next/head'; // Importing the 'Head' component from Next.js
-import { BsFillMoonStarsFill } from 'react-icons/bs'; // Importing an icon from the 'react-icons/bs' library
-import { 
+import { BsFillMoonStarsFill } from 'react-icons/bs'; // Importing the 'night-icon' for dark mode from the 'react-icons/bs' library
+
+import {  // Importing the LinkedIn, Github and Medium icons from the 'react-icons' library
   AiFillLinkedin, 
   AiFillGithub, 
   AiFillMediumCircle,
-} from 'react-icons/ai'; // Importing icons from the 'react-icons/ai' library
+} from 'react-icons/ai';
+
 import Image from 'next/image'; // Importing the 'Image' component from Next.js
-import miles from '../public/miles-morales.jpg'; // Importing an image file
-import code from "../public/code.png"; // Importing an image file
-import design from "../public/design.png"; // Importing an image file
-import product from "../public/product.png"; // Importing an image file
-import web1 from "../public/web1.png"; // Importing an image file
-import web2 from "../public/web2.png"; // Importing an image file
-import web3 from "../public/web3.png"; // Importing an image file
-import web4 from "../public/web4.png"; // Importing an image file
+import miles from '../public/miles-morales.jpg'; // Importing the spider-man avatar
+import code from "../public/code.png"; // Importing a code icon
+import design from "../public/design.png"; // Importing a design icon
+import product from "../public/product.png"; // Importing a product icon
+import web1 from "../public/web1.png"; // Importing a picture of one of my projects
+import web2 from "../public/web2.png"; // Importing a picture of one of my projects
+import web3 from "../public/web3.png"; // Importing a picture of one of my projects
+import web4 from "../public/web4.png"; // Importing a picture of one of my projects
 import {useState} from 'react'; // Importing the 'useState' hook from React
 
 export default function Home() {
@@ -43,7 +45,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10 py-10'> {/* A container div */}
-            <h2 className='text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Ramez Al-Siddiq</h2> {/* The name */}
+            <h2 className='text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Ramez Al-Siddiq</h2> {/* an h2 tag */}
             <h3 className='text-gray-800 text-2xl py-2 dark:text-white md:text-3xl'>Junior Software Engineer</h3> {/* The job title */}
             <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'> {/* The description */}
               I deliver seamless <span className='text-teal-500'> digital experiences</span> for end-users leveraging user-centered design, extreme programming and lean product management methodologies.
