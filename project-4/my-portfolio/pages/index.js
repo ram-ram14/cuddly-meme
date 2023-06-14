@@ -14,8 +14,6 @@ import web1 from "../public/web1.png"; // Importing an image file
 import web2 from "../public/web2.png"; // Importing an image file
 import web3 from "../public/web3.png"; // Importing an image file
 import web4 from "../public/web4.png"; // Importing an image file
-import web5 from "../public/web5.png"; // Importing an image file
-import web6 from "../public/web6.png"; // Importing an image file
 import {useState} from 'react'; // Importing the 'useState' hook from React
 
 export default function Home() {
@@ -139,7 +137,7 @@ export default function Home() {
               <Image src={web1} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
-              <Image src={web6} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
+              <Image src={web2} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
             </div>
             <div className='basis-1/3 flex-1'> {/* A div */}
               <Image src={web3} layout="responsive" objectFit="cover" className='rounded-lg shadow-lg' /> {/* The image */}
